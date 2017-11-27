@@ -10,12 +10,21 @@
   margin: 0;
 }
 
+
+.header__title span {
+  padding: 1rem;
+  background-color: red;
+  border-radius: 90;
+}
+
+
 .header__subtitle {
   color: $off-white;
   font-size: $m-size;
   font-weight: 500;
   margin: 0;
 }
+
 
 @media (min-width: $desktop-breakpoint) {
   .header {
