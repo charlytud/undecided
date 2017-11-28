@@ -1,17 +1,20 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+node_modules
 
 #playground
-/src/playground
+src/playground
 
 # testing
-/coverage
+coverage
 
 # production
-/build
-/public/bundle.js
+build
+public/dist
+public/bundle.js
+public/style.css
+public/styles.css.map
 
 # misc
 .DS_Store
