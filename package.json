@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Charly ",
-  "license": "charly-playground",
+  "license": "MIT",
+  "engines": {
+    "node": "5.5.1"
+  },
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
